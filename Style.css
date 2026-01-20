@@ -1,0 +1,170 @@
+
+
+header{
+    background-color: #151520;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,0.5);
+    position: fixed;
+}
+.header_img{
+    width: 6vh;
+    border-radius: 50px;
+}
+.body_img{
+    border-radius: 30px;
+    width: 80%;
+    max-width: 400px;
+    height: auto;
+    margin: 0 5vw 0 0;
+}
+body{
+    margin-top: 0;
+    background-color: #151520;
+}
+body > header > nav{
+    display: flex;
+    margin: 0 4vh;
+    gap: 8vh;
+}
+body > header > a{
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    
+}
+a{
+    text-decoration: none;  
+    color: rgb(148, 148, 148);
+    background-color: #151520;
+    padding: 2vh;
+    border-radius: 5px;
+    font-size: 3vh;
+}
+a:active{
+    color: rgb(114, 95, 95);
+    background-color: #151520;
+}
+body{
+    width: 100%;
+}
+
+main > div:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+    padding: 20vh 3vw 0 ;
+    background-color: #151520;
+    flex-wrap: wrap;
+}
+
+body > main > div.skils{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:2vw;
+}
+body > main > div:nth-child(1){
+    padding-bottom: 18px;
+    box-shadow: 0 6px 0 0 rgba(0,0,0,0.1);
+} 
+h5{
+    color: white;
+}
+.intro > span:nth-child(2){
+    color: white;
+    font-size: 32px;   
+}
+.intro > span:nth-child(3){
+    font-size: 32px;
+    color: red;
+  
+}
+
+.intro > p{
+    font-size: 3vh;
+    color: white;
+  
+}
+body > main > div:nth-child(3){
+    padding: 3vh;
+}
+
+.intro > p:nth-child(6){
+    font-size: 7vh;
+}
+
+h4{
+    color: white;
+}
+
+body > main > div:nth-child(2){
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+.skils img{
+    width: 8vw;
+    height: 15vh;
+}
+
+.projects{
+     
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+   
+    
+}
+.projects > div{
+    display: flex;
+    gap: 5vh;
+    flex-direction: row;
+}
+.projects > div >span{
+    border-radius: 20px;
+    background-color: #252534;
+    padding: 3vh;
+    
+    width: 100%;
+    max-width: 600px;
+}
+.projects > div >span > h3{
+    font-size: 15px;
+    color: rgb(148, 148, 148);
+}
+.projects > div > span > img{
+    width: 35vw;
+    height: 40vh;
+    border-radius:  20px 20px 0 0;
+}
+.projects>div>span>a>img{
+    width: 2vw;
+    background-color: aliceblue;
+}
+
+footer{
+    display: flex;
+    gap: 25vh;
+    padding: 3vh;
+    background-color: #151520;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,0.5);
+    flex-wrap: wrap;
+}
+.footer .about  p{
+    color: rgb(148, 148, 148);
+    font-size: 15px;
+}
+
+.logo{
+    width: 3vw;
+    height: 4vh;
+    border-radius: 10px;
+}
+
+h2{
+    color: rgb(148, 148, 148);
+}
+
